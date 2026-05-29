@@ -1,0 +1,141 @@
+{
+  "regulation": "Regulation (EU) 2024/1689",
+  "annex": "III",
+  "title": "High-risk AI systems",
+  "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+  "applies_from": "2026-08-02",
+  "version": "2026-05-29",
+  "maintainer": "Disclos team",
+  "note": "Annex III lists 8 areas of use. An AI system used in any of these is high-risk under Article 6(2), with limited exceptions in Article 6(3). Verify the latest text on EUR-Lex for any edge case.",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Biometrics",
+      "scope": "Remote biometric identification systems, biometric categorisation systems based on sensitive attributes, emotion recognition systems",
+      "examples": [
+        "Face identification at venue entry",
+        "Voice-based emotion analysis in call centers",
+        "Biometric categorisation for marketing segmentation"
+      ],
+      "common_saas_features_in_scope": [
+        "Voice analytics for customer support tone-scoring",
+        "Identity verification kiosks with biometric matching"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Critical infrastructure",
+      "scope": "Safety components in the management and operation of critical digital infrastructure, road traffic, water, gas, heating, electricity",
+      "examples": [
+        "Predictive maintenance AI for power grid relays",
+        "Traffic signal optimisation AI",
+        "Water treatment process control AI"
+      ],
+      "common_saas_features_in_scope": [
+        "SaaS that supplies algorithms or models directly to grid operators or municipal water companies"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Education and vocational training",
+      "scope": "Admissions decisions, assignment to programmes, evaluation of learning outcomes, assessment of appropriate level of education, monitoring and detecting prohibited behaviour during tests",
+      "examples": [
+        "Auto-grading systems",
+        "Plagiarism detection that influences a final grade",
+        "Online proctoring with behaviour scoring"
+      ],
+      "common_saas_features_in_scope": [
+        "EdTech SaaS that auto-scores essays or exams",
+        "Proctoring SaaS with attention or behaviour analytics",
+        "Course recommendation that determines programme assignment"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Employment, worker management, and access to self-employment",
+      "scope": "Recruitment or selection, decisions affecting terms of work, promotion, termination, allocation of tasks based on individual behaviour or personal traits, monitoring and evaluating performance",
+      "examples": [
+        "CV screening that filters or ranks candidates",
+        "Performance review scoring AI",
+        "Algorithmic task assignment for gig workers",
+        "Sentiment analysis on internal employee communications"
+      ],
+      "common_saas_features_in_scope": [
+        "HR SaaS with resume screening, candidate ranking, or interview scoring",
+        "Workforce management SaaS that allocates shifts or tasks via AI",
+        "Performance management SaaS that scores employees from data"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Access to and enjoyment of essential public and private services",
+      "scope": "Eligibility for public assistance benefits and services, creditworthiness evaluation or credit scoring (except detection of financial fraud), risk assessment and pricing for life and health insurance, dispatch or prioritisation of emergency services",
+      "examples": [
+        "Credit scoring AI",
+        "Insurance underwriting AI",
+        "Welfare eligibility AI",
+        "Ambulance triage AI"
+      ],
+      "common_saas_features_in_scope": [
+        "Fintech credit underwriting SaaS",
+        "InsureTech pricing or claims AI",
+        "Government benefits eligibility platforms"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Law enforcement",
+      "scope": "Risk assessment of natural persons as potential victims or offenders, polygraph and similar tools, assessment of evidence reliability, predictive policing based on profiling, criminal analytics",
+      "examples": [
+        "Predictive policing AI",
+        "Recidivism scoring",
+        "AI-driven evidence reliability assessment"
+      ],
+      "common_saas_features_in_scope": [
+        "B2G platforms supplying analytics to police or prosecutorial agencies"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Migration, asylum, and border control management",
+      "scope": "Polygraph and similar tools, risk assessments related to entry, examination of applications for asylum and visas, detection and recognition of natural persons at borders",
+      "examples": [
+        "Border face-matching AI",
+        "Asylum application risk scoring",
+        "Visa application document classification"
+      ],
+      "common_saas_features_in_scope": [
+        "Government-facing visa or asylum processing SaaS"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Administration of justice and democratic processes",
+      "scope": "AI systems intended to assist judicial authorities in researching and interpreting facts and law and in applying the law to a concrete set of facts, AI used for influencing the outcome of an election or voting behaviour",
+      "examples": [
+        "Legal research AI used by judges",
+        "Algorithmic sentencing assistance",
+        "Election campaign micro-targeting AI"
+      ],
+      "common_saas_features_in_scope": [
+        "LegalTech SaaS sold to courts or tribunals",
+        "Political campaign micro-targeting SaaS"
+      ]
+    }
+  ],
+  "exception_article_6_3": "An AI system referred to in Annex III is NOT high-risk if it does not pose a significant risk of harm to health, safety, or fundamental rights, including by not materially influencing the outcome of decision-making. Conditions in Article 6(3) include: AI performs a narrow procedural task, AI improves the result of a previously completed human activity, AI detects decision-making patterns or deviations without replacing the human assessment, AI performs a preparatory task. Profiling of natural persons is always considered high-risk.",
+  "obligations_if_high_risk": [
+    "Risk management system (Article 9)",
+    "Data and data governance (Article 10)",
+    "Technical documentation (Article 11, Annex IV)",
+    "Record-keeping (Article 12)",
+    "Transparency and provision of information to deployers (Article 13)",
+    "Human oversight (Article 14)",
+    "Accuracy, robustness, and cybersecurity (Article 15)",
+    "Quality management system (Article 17)",
+    "Conformity assessment (Article 43)",
+    "EU declaration of conformity (Article 47)",
+    "CE marking (Article 48)",
+    "Registration in EU database (Article 49 and Article 71)"
+  ]
+}

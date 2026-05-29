@@ -1,0 +1,60 @@
+{
+  "regulation": "Regulation (EU) 2024/1689",
+  "article": "99",
+  "currency": "EUR",
+  "applies_from": "2026-08-02",
+  "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+  "version": "2026-05-29",
+  "maintainer": "Disclos team",
+  "tiers": [
+    {
+      "tier": 1,
+      "name": "Prohibited AI violations",
+      "trigger_article": "Article 5",
+      "trigger_summary": "Use of any AI practice prohibited under Article 5 (subliminal manipulation, exploitation of vulnerabilities, social scoring by public authorities, predictive policing by profiling alone, untargeted facial scraping, emotion recognition in workplace or education with limited exceptions, biometric categorisation on sensitive attributes, real-time remote biometric identification in public spaces with narrow law-enforcement exceptions)",
+      "maximum_penalty_eur": 35000000,
+      "maximum_penalty_percent_turnover": 7,
+      "calculation_rule": "higher of the two",
+      "applies_to": "providers, importers, distributors, deployers, and any other operator"
+    },
+    {
+      "tier": 2,
+      "name": "Other violations of the Act, including Article 50 transparency and high-risk obligations",
+      "trigger_article": "Articles 16, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33(1), 33(3), 33(4), 34, 50",
+      "trigger_summary": "Non-compliance with provider obligations, importer obligations, distributor obligations, deployer obligations under Article 26, notified body obligations, or transparency obligations under Article 50",
+      "maximum_penalty_eur": 15000000,
+      "maximum_penalty_percent_turnover": 3,
+      "calculation_rule": "higher of the two",
+      "applies_to": "providers, importers, distributors, deployers"
+    },
+    {
+      "tier": 3,
+      "name": "Misleading information to authorities",
+      "trigger_article": "Article 99(5)",
+      "trigger_summary": "Supplying incorrect, incomplete, or misleading information to notified bodies or national competent authorities in reply to a request",
+      "maximum_penalty_eur": 7500000,
+      "maximum_penalty_percent_turnover": 1,
+      "calculation_rule": "higher of the two",
+      "applies_to": "any operator"
+    }
+  ],
+  "sme_treatment": {
+    "article": "99(6)",
+    "rule": "For SMEs, including start-ups, each fine referred to in this Article shall be up to the percentages or amount referred to in paragraphs 3, 4, and 5, whichever is lower.",
+    "practical_meaning": "SMEs face the LOWER of the absolute amount and the turnover percentage, not the higher. This is the inverse of the rule that applies to larger companies."
+  },
+  "factors_considered_article_99_7": [
+    "Nature, gravity, and duration of the infringement and of its consequences",
+    "Whether administrative fines have already been applied by other authorities for the same infringement",
+    "Size, annual turnover, and market share of the operator",
+    "Other aggravating or mitigating factors applicable to the circumstances",
+    "Degree of cooperation with national competent authorities",
+    "Degree of responsibility of the operator, taking technical and organisational measures into account",
+    "Manner in which the infringement became known to the national competent authorities (especially whether the operator notified)",
+    "Intentional or negligent character of the infringement",
+    "Actions taken to mitigate harm",
+    "Adherence to approved codes of conduct or certification mechanisms"
+  ],
+  "enforcement_authority": "Each EU Member State designates a national competent authority. Penalties are imposed at Member State level under Member State procedural rules.",
+  "note": "These are maximum bounds set by the Regulation. Actual fines imposed will be calibrated against the Article 99(7) factors and Member State practice. Read alongside Article 99 in full for the procedural detail."
+}
