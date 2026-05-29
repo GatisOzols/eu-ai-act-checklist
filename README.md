@@ -8,22 +8,27 @@ The main wave of obligations applies on **2 August 2026**. This repo is designed
 
 - [`checklist.md`](./checklist.md) — the 7-step self-audit. Plain English, article references, copy-paste friendly.
 - [`annex-iii-categories.json`](./annex-iii-categories.json) — machine-readable list of the 8 high-risk categories from Annex III with sub-categories and examples.
-- [`article-50-templates/`](./article-50-templates/) — copy-paste Article 50 disclosure templates for chatbots, generated content, deepfakes, and emotion recognition. English version.
 - [`classify.py`](./classify.py) — a tiny decision-tree script. Answer 5 questions about your AI feature, get back: prohibited / high-risk / limited-risk (Article 50) / minimal-risk.
 - [`penalty-bands.json`](./penalty-bands.json) — the three Article 99 penalty tiers as data.
+- Article 50 disclosure templates, copy-paste, English:
+  - [`chatbot.html`](./chatbot.html) — Article 50(1), AI interaction disclosure for chatbots and voice assistants.
+  - [`generated-content.md`](./generated-content.md) — Article 50(2), synthetic content disclosure.
+  - [`deepfake.md`](./deepfake.md) — Article 50(4), deepfake disclosure.
+  - [`emotion-recognition.md`](./emotion-recognition.md) — Article 50(3), emotion recognition and biometric categorisation disclosure.
+  - [`translations.json`](./translations.json) — the disclosure labels translated to 6 EU languages.
 
 ## How to use it
 
 1. Read [`checklist.md`](./checklist.md) start to finish (15 minutes).
 2. Run `python3 classify.py` for each AI feature in your product. Save the output.
 3. Open [`annex-iii-categories.json`](./annex-iii-categories.json) and check whether any of your features map to a high-risk category.
-4. Open [`article-50-templates/`](./article-50-templates/) and pick the templates that apply to your product. Paste them into your UI.
+4. Open the Article 50 template files (`chatbot.html`, `generated-content.md`, `deepfake.md`, `emotion-recognition.md`) and pick the templates that apply to your product. Paste them into your UI.
 5. Keep a copy of all the outputs in a folder named `eu-ai-act-audit-YYYY-MM-DD/`. That's your self-audit trail.
 
 ## What this repo is not
 
 - Not legal advice. The text is factual and references the regulation directly, but a self-audit is not a substitute for a formal compliance assessment if you operate in a high-risk category under Annex III.
-- Not exhaustive. Article 50 transparency obligations are covered. High-risk conformity assessments under Annex III are summarized but not templated — they require a formal technical file.
+- Not exhaustive. Article 50 transparency obligations are covered. High-risk conformity assessments under Annex III are summarized but not templated, they require a formal technical file.
 - Not auto-updating. The EU AI Office may issue clarifying guidelines after the entry-into-application date. Check the official portal (https://artificialintelligenceact.eu) periodically.
 
 ## When you need more than self-audit
