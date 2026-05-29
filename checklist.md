@@ -157,6 +157,6 @@ Keep this. Update it when you add new AI features. This is your audit trail.
 ## What to do next
 
 - If everything in your product is minimal risk: you're done with the AI Act. Re-audit every 6 months or after every major feature launch.
-- If Article 50 applies: implement the disclosures from [`article-50-templates/`](./article-50-templates/) before 2 August 2026.
+- If Article 50 applies: implement the disclosures from the Article 50 template files in this repo (`chatbot.html`, `generated-content.md`, `deepfake.md`, `emotion-recognition.md`) before 2 August 2026.
 - If Annex III high-risk applies: budget 1-3 months for a formal conformity assessment process. Self-audit is necessary but not sufficient.
 - If you want a productized 5-day audit with a deliverable PDF and refund guarantee: https://www.disclos.eu/audit
