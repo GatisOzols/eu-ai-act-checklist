@@ -1,0 +1,59 @@
+<!--
+  Article 50(1) — Divulgation d'interaction avec une IA
+  À utiliser lorsque : votre produit dialogue avec un utilisateur (chatbot, assistant vocal, agent de support IA)
+  Obligation : divulgation claire et distinguable, AU DÉBUT de l'interaction. Indicateur visible et persistant pendant toute la session.
+  Source : Règlement (UE) 2024/1689, Article 50(1)
+  Mainteneur : équipe Disclos — https://www.disclos.eu
+-->
+
+<!-- Bloc 1 : au début de la conversation. À afficher avant le premier message de l'utilisateur. -->
+<div role="status" aria-live="polite" class="ai-disclosure ai-disclosure--initial">
+  <strong>Vous échangez avec un assistant IA.</strong>
+  <p>Les réponses sont générées par un modèle d'intelligence artificielle et peuvent contenir des erreurs. Pour toute décision à portée juridique, financière ou médicale, vérifiez auprès d'une personne qualifiée.</p>
+</div>
+
+<!-- Bloc 2 : indicateur persistant dans l'interface du chat. À garder visible toute la session. -->
+<div class="ai-indicator" aria-label="Indicateur de session de discussion IA">
+  <span class="ai-indicator__dot" aria-hidden="true"></span>
+  <span class="ai-indicator__label">Assistant IA</span>
+</div>
+
+<!-- Bloc 3 : ligne de pied de page rattachée à chaque message généré par l'IA. -->
+<footer class="ai-message-footer">Généré par une IA</footer>
+
+<style>
+  /*
+    Styles minimaux. À adapter à votre design system.
+    NE PAS masquer ces éléments derrière un survol, un défilement ou la fermeture d'une fenêtre modale.
+    L'article 50(1) exige une divulgation "claire et distinguable".
+  */
+  .ai-disclosure {
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .ai-disclosure strong { display: block; margin-bottom: 4px; }
+  .ai-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #3730a3;
+  }
+  .ai-indicator__dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: currentColor;
+  }
+  .ai-message-footer {
+    font-size: 11px;
+    color: #6b7280;
+    margin-top: 4px;
+  }
+</style>
