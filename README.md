@@ -1,5 +1,11 @@
 # eu-ai-act-checklist
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/GatisOzols/eu-ai-act-checklist?style=social)](https://github.com/GatisOzols/eu-ai-act-checklist/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/GatisOzols/eu-ai-act-checklist)](https://github.com/GatisOzols/eu-ai-act-checklist/commits/main)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Regulation%202024%2F1689-blue)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689)
+[![Enforcement](https://img.shields.io/badge/Enforcement-2%20Aug%202026-red)](https://artificialintelligenceact.eu)
+
 A practical, open-source compliance checklist for the EU AI Act (Regulation (EU) 2024/1689), built for SaaS founders and AI product teams.
 
 The main wave of obligations applies on **2 August 2026**. This repo is designed so a developer can run through it in one afternoon and produce a defensible self-audit trail before that deadline.
@@ -17,6 +23,19 @@ The main wave of obligations applies on **2 August 2026**. This repo is designed
   - [`emotion-recognition.md`](./emotion-recognition.md) — Article 50(3), emotion recognition and biometric categorisation disclosure.
   - [`translations.json`](./translations.json) — the disclosure labels translated to 6 EU languages.
 
+## How this compares to other EU AI Act tools
+
+| | This repo | Holistic AI | Credo AI | IBM watsonx.governance |
+|---|---|---|---|---|
+| Price | Free, MIT | Enterprise SaaS | Enterprise SaaS | Enterprise SaaS |
+| Setup time | One afternoon | Sales call required | Sales call required | Sales call required |
+| Article 50 templates | Yes, copy-paste | Generated via tool | Generated via tool | Generated via tool |
+| Annex III triage | JSON + Python script | Yes | Yes | Yes |
+| Self-hostable | Yes | No | No | Partial |
+| Built for | Founders, small SaaS teams | Enterprises | Enterprises | Enterprises |
+
+This repo will not replace an enterprise GRC platform if you have a 50-person compliance team. It is built for the SaaS founder who has 65 days, no compliance budget, and needs a defensible self-audit trail.
+
 ## How to use it
 
 1. Read [`checklist.md`](./checklist.md) start to finish (15 minutes).
@@ -28,7 +47,7 @@ The main wave of obligations applies on **2 August 2026**. This repo is designed
 ## What this repo is not
 
 - Not legal advice. The text is factual and references the regulation directly, but a self-audit is not a substitute for a formal compliance assessment if you operate in a high-risk category under Annex III.
-- Not exhaustive. Article 50 transparency obligations are covered. High-risk conformity assessments under Annex III are summarized but not templated, they require a formal technical file.
+- Not exhaustive. Article 50 transparency obligations are covered. High-risk conformity assessments under Annex III are summarized but not templated — they require a formal technical file.
 - Not auto-updating. The EU AI Office may issue clarifying guidelines after the entry-into-application date. Check the official portal (https://artificialintelligenceact.eu) periodically.
 
 ## When you need more than self-audit
