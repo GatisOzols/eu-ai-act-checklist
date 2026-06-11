@@ -3,10 +3,18 @@
   "annex": "III",
   "title": "High-risk AI systems",
   "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
-  "applies_from": "2026-08-02",
-  "version": "2026-05-29",
+  "applies_from": "2027-12-02",
+  "applies_from_original": "2026-08-02",
+  "ai_omnibus_amendment": {
+    "official_name": "Digital Package on Simplification (AI Omnibus)",
+    "adopted": "2025-11-19",
+    "political_agreement": "2026-05-07",
+    "what_changed": "Annex III high-risk obligations moved from 2026-08-02 to 2027-12-02 to align with notified-body capacity and harmonised-standards publication. The substance of the high-risk regime did not change. The eight categories in this file did not change.",
+    "source": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+  },
+  "version": "2026-06-09",
   "maintainer": "Disclos team",
-  "note": "Annex III lists 8 areas of use. An AI system used in any of these is high-risk under Article 6(2), with limited exceptions in Article 6(3). Verify the latest text on EUR-Lex for any edge case.",
+  "note": "Annex III lists 8 areas of use. An AI system used in any of these is high-risk under Article 6(2), with limited exceptions in Article 6(3). Verify the latest text on EUR-Lex for any edge case. Note: AI as a safety component of products covered by Annex I Union harmonisation legislation is high-risk under Article 6(1) on a different track (deadline 2028-08-02); see Annex I for that list.",
   "categories": [
     {
       "id": 1,

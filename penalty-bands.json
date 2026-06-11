@@ -2,9 +2,22 @@
   "regulation": "Regulation (EU) 2024/1689",
   "article": "99",
   "currency": "EUR",
-  "applies_from": "2026-08-02",
+  "applies_from_by_tier": {
+    "tier_1_article_5_prohibited": "2025-02-02",
+    "tier_2_article_50_transparency": "2026-08-02",
+    "tier_2_annex_iii_high_risk": "2027-12-02",
+    "tier_2_annex_i_embedded_high_risk": "2028-08-02",
+    "tier_3_misleading_information": "in step with the substantive obligation breached"
+  },
+  "ai_omnibus_amendment": {
+    "official_name": "Digital Package on Simplification (AI Omnibus)",
+    "adopted": "2025-11-19",
+    "political_agreement": "2026-05-07",
+    "what_changed": "Annex III high-risk application date moved from 2026-08-02 to 2027-12-02. Annex I (Article 6(1)) embedded-product high-risk application date moved from 2027-08-02 to 2028-08-02. Article 50, Article 5, GPAI provider obligations, and governance framework dates were NOT changed.",
+    "source": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal"
+  },
   "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
-  "version": "2026-05-29",
+  "version": "2026-06-09",
   "maintainer": "Disclos team",
   "tiers": [
     {
@@ -15,7 +28,8 @@
       "maximum_penalty_eur": 35000000,
       "maximum_penalty_percent_turnover": 7,
       "calculation_rule": "higher of the two",
-      "applies_to": "providers, importers, distributors, deployers, and any other operator"
+      "applies_to": "providers, importers, distributors, deployers, and any other operator",
+      "applies_from": "2025-02-02"
     },
     {
       "tier": 2,
@@ -25,7 +39,12 @@
       "maximum_penalty_eur": 15000000,
       "maximum_penalty_percent_turnover": 3,
       "calculation_rule": "higher of the two",
-      "applies_to": "providers, importers, distributors, deployers"
+      "applies_to": "providers, importers, distributors, deployers",
+      "applies_from_by_sub_obligation": {
+        "article_50_transparency": "2026-08-02",
+        "annex_iii_high_risk_obligations": "2027-12-02",
+        "annex_i_embedded_high_risk_obligations": "2028-08-02"
+      }
     },
     {
       "tier": 3,
@@ -35,7 +54,8 @@
       "maximum_penalty_eur": 7500000,
       "maximum_penalty_percent_turnover": 1,
       "calculation_rule": "higher of the two",
-      "applies_to": "any operator"
+      "applies_to": "any operator",
+      "applies_from": "in step with the substantive obligation breached"
     }
   ],
   "sme_treatment": {

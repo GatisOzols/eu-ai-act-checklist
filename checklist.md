@@ -1,6 +1,10 @@
 # EU AI Act Self-Audit Checklist
 
-A 7-step audit for SaaS companies and AI product teams to map their product against Regulation (EU) 2024/1689 before the **2 August 2026** main application date.
+A 7-step audit for SaaS companies and AI product teams to map their product against Regulation (EU) 2024/1689 across all three application dates set by the AI Omnibus:
+
+- **2 August 2026** — Article 50 transparency, GPAI provider obligations, governance.
+- **2 December 2027** — Annex III high-risk obligations (the SaaS-facing high-risk regime).
+- **2 August 2028** — Annex I embedded-product obligations (AI as safety component under existing Union harmonisation legislation).
 
 Time to complete: 1 afternoon for a single-product SaaS. Longer for multi-product platforms.
 
@@ -86,7 +90,9 @@ The 8 areas:
 7. Migration, asylum, border control
 8. Administration of justice and democratic processes
 
-If any of your features fall into one of these, you're a high-risk provider for that feature, and the obligations in Step 6 apply. Common SaaS cases: resume screening, candidate ranking, employee performance scoring, credit scoring, insurance underwriting.
+If any of your features fall into one of these, you're a high-risk provider for that feature, and the obligations in Step 6 apply from **2 December 2027** (moved from the original 2 August 2026 by the AI Omnibus). Common SaaS cases: resume screening, candidate ranking, employee performance scoring, credit scoring, insurance underwriting.
+
+If your AI is a safety component of a product covered by Annex I Union harmonisation legislation (Machinery Regulation, MDR, IVDR, lifts, toys, RED, marine, civil aviation, motor vehicles), Article 6(1) applies instead of Article 6(2). The obligations in Step 6 are substantively the same, but the application date is **2 August 2028** and the conformity-assessment route runs through the notified body designated under the sector regulation.
 
 ---
 
@@ -109,7 +115,7 @@ Document each disclosure you've implemented, where it appears in the UI, and a s
 
 ## Step 6 — High-risk obligations (only if Step 4 returned high-risk)
 
-If any feature is high-risk under Annex III, you must implement the following before 2 August 2026:
+If any feature is high-risk under Annex III, you must implement the following before **2 December 2027**. If your high-risk classification comes from Article 6(1) (AI as safety component under Annex I Union harmonisation legislation), the deadline is **2 August 2028** instead.
 
 - A risk management system (Article 9)
 - Data and data governance (Article 10) — training, validation, and testing data must be relevant, representative, and free of errors to the extent feasible
@@ -157,6 +163,7 @@ Keep this. Update it when you add new AI features. This is your audit trail.
 ## What to do next
 
 - If everything in your product is minimal risk: you're done with the AI Act. Re-audit every 6 months or after every major feature launch.
-- If Article 50 applies: implement the disclosures from the Article 50 template files in this repo (`chatbot.html`, `generated-content.md`, `deepfake.md`, `emotion-recognition.md`) before 2 August 2026.
-- If Annex III high-risk applies: budget 1-3 months for a formal conformity assessment process. Self-audit is necessary but not sufficient.
+- If Article 50 applies: implement the disclosures from the Article 50 template files in this repo (`chatbot.html`, `generated-content.md`, `deepfake.md`, `emotion-recognition.md`) before **2 August 2026**.
+- If Annex III high-risk applies: budget the full window between now and **2 December 2027** for a formal conformity assessment. Articles 9 through 15 implementation plus the Annex IV technical file is approximately 18 months of work for a SaaS that has not started. Self-audit is necessary but not sufficient.
+- If Annex I high-risk applies (AI as safety component under Machinery, MDR, IVDR, etc.): plan against the sector regulation's notified-body cycle through **2 August 2028**. Engage the notified body in 2026, not 2027.
 - If you want a productized 5-day audit with a deliverable PDF and refund guarantee: https://www.disclos.eu/audit

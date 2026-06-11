@@ -4,11 +4,19 @@
 [![GitHub stars](https://img.shields.io/github/stars/GatisOzols/eu-ai-act-checklist?style=social)](https://github.com/GatisOzols/eu-ai-act-checklist/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/GatisOzols/eu-ai-act-checklist)](https://github.com/GatisOzols/eu-ai-act-checklist/commits/main)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Regulation%202024%2F1689-blue)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689)
-[![Enforcement](https://img.shields.io/badge/Enforcement-2%20Aug%202026-red)](https://artificialintelligenceact.eu)
+[![Article 50](https://img.shields.io/badge/Article%2050-2%20Aug%202026-red)](https://artificialintelligenceact.eu/article/50/)
+[![Annex III](https://img.shields.io/badge/Annex%20III-2%20Dec%202027-orange)](https://artificialintelligenceact.eu/annex/3/)
+[![Annex I](https://img.shields.io/badge/Annex%20I-2%20Aug%202028-yellow)](https://artificialintelligenceact.eu/annex/1/)
 
 A practical, open-source compliance checklist for the EU AI Act (Regulation (EU) 2024/1689), built for SaaS founders and AI product teams.
 
-The main wave of obligations applies on **2 August 2026**. This repo is designed so a developer can run through it in one afternoon and produce a defensible self-audit trail before that deadline.
+After the **AI Omnibus** (political agreement 7 May 2026, adopted 19 November 2025), the Act has three independent application dates for SaaS:
+
+- **2 August 2026** — Article 50 transparency obligations, GPAI provider obligations under Chapter V, governance framework under Chapter VII.
+- **2 December 2027** — Annex III high-risk obligations (biometrics, critical infrastructure, education, employment, essential services, law enforcement, migration, justice). Moved from the original 2 August 2026.
+- **2 August 2028** — Annex I high-risk obligations (AI as a safety component of products covered by Union harmonisation legislation: Machinery, MDR, IVDR, lifts, toys, RED). Moved from the original 2 August 2027.
+
+This repo is designed so a developer can run through it in one afternoon and produce a defensible self-audit trail for each wave that applies to their product.
 
 ## What's in this repo
 
